@@ -126,3 +126,32 @@
 .btn-signin:hover {
     color: #5a6268;
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    width: 16.6667%;
+}
+
+main {
+    margin-left: 16.6667%; 
+    width: 83.3333%; 
+    padding: 1rem; 
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem;
+    flex: 1 1 calc(25% - 2rem);
+}
+
+.row.gutter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
